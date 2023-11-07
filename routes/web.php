@@ -19,4 +19,4 @@ Route::get('/', function () {
 });
 
 Route::get('/students/create', [StudentController::class, 'create']);
-Route::post('/students', [StudentController::class, 'store']);
+Route::get('/students', [StudentController::class, 'store']);
